@@ -18,11 +18,22 @@
           <span><a href="#">Informacion  de Contacto</a></span>
         </div>
       </div>
-    <ul id="info-details">
-      <li><a href="#"></a>
-      </li>
+    <ul id="info-details"> <!-- OJO QUE ACA VAN IMAGENES QUE NO SE DE DONDE DIABLOS LAS LLAMA -->
+      <li><a href="#"> 
+        <img src="fotodeUTN" alt="foto-utn">
+        <h2>UTN</h2>
+      </a></li>
+      <li><a href="#">
+        <img src="fotodeUADE" alt="Foto-uade">
+        <h2>UADE</h2>
+      </a></li>
     </ul>
-    
+
+    </div>
+    <div id="info-actions">
+      <button class="btn btn-primary" type="button">Tengo Interes en</button>
+      <button class="btn btn-light" type="button">Añadir Seccion</button>
+      <button class="btn btn-light" type="button">Mas</button>
     </div>
   </div>
 </div>
@@ -30,10 +41,10 @@
 <div class="card mat-card">
   <div class="card-titles">
     <h2>Acerca de</h2>
-    <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>
+    <div class="btn-edit" onclick="cambiar_parrafo()"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>
   </div>
-  <div>Ingeniero mecanico, con experiencia en industrias automotriz y Oil & Gas. Eterno curioso y estudiante de programacion y cryptomonedas</div>
-
+  <div><p id="acercade">Ingeniero mecanico, con experiencia en industrias automotriz y Oil & Gas. Eterno curioso y estudiante de programacion y cryptomonedas</p></div>
+  <!--<div>OJO QUE ACA VA LA FUNCION DE CAMBIAR PARRAFO MINUTO 1.02.17 VIDEO 2</div>-->
 </div>
 
 <div class="card mat-card"> 
@@ -48,7 +59,26 @@
         <li>Nissan</li>
         <li>Ipac Argentina S.A</li>
         <li>Volkswagen Argentina</li>
+        
       </ul>
     </div>
   </div>
+</div>
+
+<div class="card mat-card">
+  <div class="card-titles">
+    <h2>Aptitudes y validaciones</h2>
+    <button class="btn btn-light" type="button">Añadir Aptitud Nueva</button>
+    <button class="btn btn-light" type="button">Hacer un Test de Aptitudes</button>
+    <div class="btn-edit"><a href="#" class="btn btn-right"><i class="fa fa-pen"></i></a>
+    </div>
+  </div>
+</div>
+
+<div class="card mat-card">
+  <div class="card-titles">
+    <h2>Logros</h2>
+    <div class="btn-edit"><a href="#" class="btn-right"> <i class="fa fa-pen"></i></a></div>
+  </div>
+
 </div>
