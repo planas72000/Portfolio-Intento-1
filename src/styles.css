@@ -14,16 +14,24 @@ div#profile-background {
     z-index: 1;
 }
 
-div#profile-background img {
-    width: 100%;
-    border-radius: 32px 32px 32px 32px;
+.header_left{
+    background-color: black;
+    display:flex;
+    height: 50px;
+    width: 100px;
+    border-top-left-radius: 32px;
 }
 
-.profile-image {
-    border-radius: 50%;
-    width: 152px;
-    height: 152px;
-    margin-top: -110px;
+div#profile-background img {
+    width: 100%;
+    border-radius: 0px 0px 32px 32px;
+}
+
+.info-img {
+    border-radius: 75%;
+    width: 242px;
+    height: 222px;
+    margin-top: -170px;
     z-index: 1;
 }
 
