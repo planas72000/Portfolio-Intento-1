@@ -14,5 +14,20 @@
 </head>
 <body>
   <app-root></app-root>
+
+  <script>
+    function cambiar_parrafo(){
+      document.getElementById("edit-acercade").style.display="block";
+      let texto = document.getElementById("acercade").innerText;
+      console.log(texto);
+    };
+  
+  
+  function myfunction2(valor){
+    document.getElementById("acercade").innerText=valor;
+  };
+  </script>
+
+
 </body>
 </html>
