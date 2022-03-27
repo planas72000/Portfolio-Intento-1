@@ -8,7 +8,7 @@ import { AcercadeComponent } from './componentes/acercade/acercade.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { AptitudesComponent } from './componentes/aptitudes/aptitudes.component';
 import { LogrosComponent } from './componentes/logros/logros.component';
-
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +20,8 @@ import { LogrosComponent } from './componentes/logros/logros.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
