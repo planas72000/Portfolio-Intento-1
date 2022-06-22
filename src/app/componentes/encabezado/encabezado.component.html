@@ -24,9 +24,9 @@
         <div class="btn-edit"><a href="#" class="btn-right"><i class="fa fa-pen"></i></a></div>
       </div>
   
-      <div id="info-data">
+      <div id="info-data" *ngIf="miPorfolio">
         <div>
-          <h1>{{<miPorfolio.name}}</h1>
+          <h1>{{miPorfolio.nombre}}</h1>
           <div id="info-company">"Motwi Engineer"</div>
           <div id="info-contact">
             <span>Buenos Aires (Argentina)</span><br>

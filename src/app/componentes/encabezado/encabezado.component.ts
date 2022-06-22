@@ -16,7 +16,7 @@ export class EncabezadoComponent implements OnInit {
 
   ngOnInit(): void {
   this.inyeccion.obtenerDatos().subscribe(data =>{
-    console.log (data);
+    
     this.miPorfolio=data;
   });
   }

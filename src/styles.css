@@ -133,6 +133,15 @@ color: black;
     align-self: flex-end;
 }
 
+.btn-light {
+    vertical-align: bottom;
+
+}
+.botonesaptitudes {
+    position: absolute;
+    bottom: 0px;
+}
+
 .fa-button, .fa {
     color: black;
     display: block;

@@ -10,7 +10,7 @@ export class ServicioportfolioService {
   constructor(private http:HttpClient) { }
 
 obtenerDatos ():Observable<any>{
-  return this.http.get('portfolio-leandro-n-planas\src\assets\Datos\losdatos.json');
+  return this.http.get('http://localhost:4200/assets/Datos/losdatos.json');
 }
 
 
